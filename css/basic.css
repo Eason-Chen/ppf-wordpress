@@ -1,0 +1,77 @@
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: 'Raleway';
+  font-size: 14px;
+  color: #fff;
+}
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+p{
+  text-align: justify;
+  font-size: 14px;
+}
+
+/* a link setting start */
+a,
+a:link,
+a:visited{
+  color: inherit;
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+a.current,
+nav ul li.current-menu-item a:link,
+nav ul li.current-menu-item a:visited {
+  color: #D91B41;
+}
+/* a link setting end */
+
+/* image setting start */
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+/* image setting end */
+
+/* clear fix setting start */
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after{
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.container:after{
+  clear: both;
+}
+/* clear fix setting end */
+
+/* header and footer basic setting start*/
+header, footer{
+  width: 100%;
+  min-width: 800px;
+}
+/* header and footer end*/
+
+/* full width settting start */
+.wrapper{
+  width: 100%;
+  min-width: 800px;
+  background: #000;
+}
+/* full width settting end */
+
+/* minus area start */
+.minus_area{
+  margin-right: -100px;
+}
+/* minus area end */

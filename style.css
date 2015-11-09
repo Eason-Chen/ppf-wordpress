@@ -1,0 +1,205 @@
+@import "css/reset.css";
+@import "css/basic.css";
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600);
+@charset "UTF-8";
+/*
+Them Name: PPF Wordpress Theme
+Author: 3A - Eason
+Version: 1.0
+ */
+
+/* header start */
+.header_bg{
+	position: relative;
+	min-height: 600px;
+	background-color: #282E31;
+	background-image: url(imgs/header_bg.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+.header_bg img{
+	display: block;
+	width: 205px;
+	margin: 0 auto;
+	padding-top: 249px;
+}
+/* header end */
+
+/* navigation start */
+nav{
+
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-left: 96px;
+}
+nav ul li{
+	float: left;
+	text-transform: uppercase;
+}
+nav ul li a{
+	display: block;
+	padding: 20px 15px;
+}
+/* navigation end */
+
+/* who we are start */
+.who_bg{
+	min-height: 780px;
+	background-color: #282E31;
+	background-image: url(imgs/who_bg.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+h2{
+	text-align: center;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.staffs{
+	float: left;
+	width: 250px;
+	height: 300px;
+	margin-right: 25px;
+}
+.staffs img{
+	display: block;
+	height: 247px;
+	width: 247px;
+	border: 1px solid #717477;
+	border-radius: 250px;
+	padding: 3px;
+	margin-bottom: 25px;
+}
+.staffs:last-of-type{
+	margin-right: 0;
+}
+.staffs .who_names{
+	font-size: 18px;
+	color: #D91B41;
+}
+.staffs .who_titles{
+	font-size: 16px;
+}
+.staffs .who_des{
+
+}
+/* who we are end */
+
+/* what we do start */
+.what_bg{
+	color: #000;
+	background: #F7F7F7;
+	padding-bottom: 30px;
+}
+.what_bg .what_title{
+	margin: 0 349px;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #D91B41;
+}
+.what_bg .what_des{
+	margin-bottom: 30px;
+}
+.what .what_des p{
+	/*text-align: center;*/
+}
+/* what we do end */
+
+/* contact start */
+.contact_bg{
+	min-height: 780px;
+	background-color: #282E31;
+	background-image: url(imgs/contact_bg.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+address{
+  	font-style: normal;
+  	text-transform: uppercase;
+  	margin-bottom: 30px;
+}
+address p{
+	text-align: center;
+}
+.copy{
+	padding: 20px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+/* contact end */
+
+/* back to top start */
+.top a{
+	text-transform: uppercase;
+	text-align: center;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	background: #000;
+	border-radius: 45px;
+  	text-decoration: none;
+  	opacity: 0.8;
+}
+.top a:hover{
+	color: #D91B41;
+}
+/* back to top end */
+
+/* project start */
+.project_bg{
+	min-height: 780px;
+	background-color: #282E31;
+	background-image: url(imgs/pj_bg.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	color: #000;
+}
+.projects{
+	float: left;
+	width: 350px;
+	height: 385px;
+	overflow: hidden;
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+.projects img{
+	width: 350px;
+	height: 250px;
+	vertical-align: middle;
+}
+/* project end */
+
+/* faqs start */
+.faq_bg{
+	min-height: 780px;
+	background-color: #282E31;
+	background-image: url(imgs/faq_bg.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+.faqs{
+	float: left;
+	width: 350px;
+	min-height: 190px;
+	margin-right: 100px;
+	margin-bottom: 30px;
+}
+.faq_bg h3{
+	font-weight: normal;
+	color: #D91B41;
+	font-size: 16px;
+}
+/* faqs end */
